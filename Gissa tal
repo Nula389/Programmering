@@ -11,7 +11,7 @@ namespace Gissa_tal
         static void Main(string[] args)
         {
             Random slump = new Random();
-            int talet = slump.Next(1, 101);
+            int talet = slump.Next(1, 100);
             int försök = 0;
             int x = 1;
             Console.WriteLine("Jag tänker på ett tal mellan 1 och 100. Försök lista ut vilket!");
